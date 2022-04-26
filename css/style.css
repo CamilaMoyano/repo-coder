@@ -82,6 +82,7 @@ h2{
     margin: 3%;
     padding-left: 28%;
     display: block;
+    transition: height, width, 5s;
 }
 
 h3{

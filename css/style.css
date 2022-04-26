@@ -15,7 +15,7 @@ header{
     color: rgb(255, 255, 255);
     display: flex;
     text-transform: uppercase;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: nowrap;
     background-image: linear-gradient(to right, #3e5151, #decba4);
     justify-content: space-between;
@@ -43,6 +43,9 @@ nav.centro a{
     flex-direction: row;
     color: rgb(5, 14, 11);
 } 
+nav a:hover{
+    color: white;
+}
 
 nav ul{
     display: flex;

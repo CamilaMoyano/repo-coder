@@ -1,0 +1,184 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    background-image: url("https://thumbs.dreamstime.com/b/textura-de-piedra-m%C3%A1rmol-dorado-y-blanco-para-fondo-el-o-lujoso-suelo-baldosas-dise%C3%B1o-decorativo-papel-pintado-182401753.jpg");
+}
+
+
+header{
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: rgb(245, 238, 223);
+    justify-content: space-between;
+}
+
+p.logo{
+    font-size: 200%;
+    margin: 1%;
+    display: flex;
+    background-color: rgb(141, 141, 140);
+    align-items:center ;
+    font-weight: bold;
+    
+}
+
+nav.centro a{
+    text-decoration:none;
+    font-size: 160%;
+    border: 1px solid ;
+    padding: 5px;
+    margin: 4px;
+    text-align: right;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(127, 136, 133);
+} 
+
+nav ul{
+    display: flex;
+    align-items: f
+}
+li{
+    list-style: none;
+    margin: 1rem;
+}
+
+
+.banner-medio img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    background-color: #666866;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+    background-color: #666866;
+}
+
+
+
+.imagenes-muestra img{
+    flex-direction:column;
+    width: 40%;
+    margin: 3%;
+    padding-left: 28%;
+    display: block;
+}
+
+h3{
+    font-size: 200%;
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 3%;
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    background-color:#9da19c;
+    margin-top: 5%;
+}
+
+button:hover{
+    background-color:#666866;
+}
+.boton-final{
+    text-align: center;
+}
+
+
+
+footer{
+    
+    margin-top: 3%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.nav-footer{
+    text-align: center;
+    color: white;
+    font-size: 90%;
+    background-color: #999b99;
+    
+}
+
+.derechos{
+    font-size: 90%;
+    text-align: right;
+    background-color: #666866;
+    color: #181717;
+}
+
+.about-us{
+    background-color: #666866;
+    color:#181717;
+}
+
+.contact-us{
+    background-color:#666866;
+    color: #181717;
+}
+
+input{
+    font-size: 90%;
+}
+
+
+
+
+.sb-div{
+    width: 800px; 
+    flex-direction: row;
+    display: flex;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.5) ;
+
+}
+
+.sb-img{
+    width: 400px;
+    
+}
+
+
+
+
+
+
+.p-cl{
+    border: #181717 solid;
+    margin:20%;
+    padding:5%;
+    width: 400px;
+    background-color: aliceblue;
+}
+
+form{
+    color: blueviolet;
+    padding: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input-send{
+    margin: 2%;
+}

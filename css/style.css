@@ -17,7 +17,7 @@ header{
     text-transform: uppercase;
     justify-content: space-between;
     flex-wrap: nowrap;
-    background-color: rgb(245, 238, 223);
+    background-image: linear-gradient(to right, #3e5151, #decba4);
     justify-content: space-between;
 }
 
@@ -41,7 +41,7 @@ nav.centro a{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    color: rgb(127, 136, 133);
+    color: rgb(5, 14, 11);
 } 
 
 nav ul{

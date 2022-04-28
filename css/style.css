@@ -112,41 +112,6 @@ button:hover{
 
 
 
-footer{
-    
-    margin-top: 3%;
-    font-size: 200%;
-    text-align: center;
-}
-
-.nav-footer{
-    text-align: center;
-    color: white;
-    font-size: 90%;
-    background-color: #999b99;
-    
-}
-
-.derechos{
-    font-size: 90%;
-    text-align: right;
-    background-color: #666866;
-    color: #181717;
-}
-
-.about-us{
-    background-color: #666866;
-    color:#181717;
-}
-
-.contact-us{
-    background-color:#666866;
-    color: #181717;
-}
-
-input{
-    font-size: 90%;
-}
 
 
 

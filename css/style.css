@@ -2,6 +2,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,6 +11,9 @@ body{
     background-image: url("https://thumbs.dreamstime.com/b/textura-de-piedra-m%C3%A1rmol-dorado-y-blanco-para-fondo-el-o-lujoso-suelo-baldosas-dise%C3%B1o-decorativo-papel-pintado-182401753.jpg");
 }
 
+.cf{
+    color: aqua;
+}
 
 
 
@@ -83,16 +87,19 @@ button:hover{
 
 
 .sb-div{
-    width: 800px; 
-    flex-direction: row;
+    width: 500px; 
+    height: 400px;
     display: flex;
+    flex-direction:column;
     color:white;
     background-color:rgba(0, 0, 0, 0.5) ;
 
 }
 
 .sb-img{
-    width: 400px;
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
     
 }
 
@@ -103,9 +110,10 @@ button:hover{
 
 .p-cl{
     border: #181717 solid;
-    margin:20%;
+    margin:2%;
     padding:5%;
     width: 400px;
+    height: 400px;
     background-color: aliceblue;
 }
 

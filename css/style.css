@@ -11,41 +11,7 @@ body{
 }
 
 
-header{
-    color: rgb(255, 255, 255);
-    display: flex;
-    text-transform: uppercase;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    background-image: linear-gradient(to right, #3e5151, #decba4);
-    justify-content: space-between;
-}
 
-p.logo{
-    font-size: 200%;
-    margin: 1%;
-    display: flex;
-    background-color: rgb(141, 141, 140);
-    align-items:center ;
-    font-weight: bold;
-    
-}
-
-nav.centro a{
-    text-decoration:none;
-    font-size: 160%;
-    border: 1px solid ;
-    padding: 5px;
-    margin: 4px;
-    text-align: right;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    color: rgb(5, 14, 11);
-} 
-nav a:hover{
-    color: white;
-}
 
 nav ul{
     display: flex;

@@ -60,7 +60,6 @@ li{
 }
 
 .grid-container{
-    
     font-size: 20px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -80,6 +79,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: rotate(360deg);
 
 }
 .grid-item-2{
@@ -87,6 +87,7 @@ li{
     background-color: rgba(61, 70, 70, 0.253);
     margin: 5%;
     display: flex;
+    transform: rotate(360deg);
 }
 .grid-item-3{
     grid-area: grid-item-3;
@@ -96,6 +97,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: rotate(360deg);
 }
 
 

@@ -60,49 +60,55 @@ li{
 }
 
 .grid-container{
+    
     font-size: 20px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(5, 200px);
+    grid-template-rows: repeat(3, 500px);
     grid-template-areas: 
     "grid-item-1  grid-item-1"
     "grid-item-2  grid-item-2"
     "grid-item-3  grid-item-3"
-    "grid-item-4  grid-item-4"
-    "grid-item-5  grid-item-6"
     ;
 }
 
 .grid-item-1{
     grid-area: grid-item-1;
-    background-color: aqua;
+    background-color: rgba(61, 70, 70, 0.253);
+    margin: 5%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .grid-item-2{
     grid-area: grid-item-2;
-    background-color: rgb(130, 15, 153);
-    
+    background-color: rgba(61, 70, 70, 0.253);
+    margin: 5%;
+    display: flex;
 }
 .grid-item-3{
     grid-area: grid-item-3;
-    background-color: rgb(216, 230, 25);
-    
+    background-color: rgba(61, 70, 70, 0.253);
+    display: flex;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.grid-item-4{
-    grid-area: grid-item-4;
-    background-color: rgb(22, 192, 16);
-    
+
+
+.grid-item-1 img{
+    width: 245px;
 }
-.grid-item-5{
-    grid-area: grid-item-5;
-    background-color: rgb(39, 37, 39);
-    
+.grid-item-2{
+    width: 400px;
 }
-.grid-item-6{
-    grid-area: grid-item-6;
-    background-color: rgb(236, 35, 35);
-    
+.grid-item-3 img{
+    width: 300px;
 }
+
 
 
 /*.
@@ -118,8 +124,6 @@ h2{
     font-size: 200%;
     background-color: #666866;
 } 
-*/
-
 
 
 .imagenes-muestra img{
@@ -130,11 +134,12 @@ h2{
     display: block;
     transition: height, width, 5s;
 }
+*/
 
 h3{
     font-size: 200%;
     padding: 10px;
-    background-color: bisque;
+    background-color: rgb(221, 218, 213);
     text-align: center;
     margin-top: 3%;
 }
@@ -201,4 +206,17 @@ form{
 
 .input-send{
     margin: 2%;
+}
+
+@media  screen and (max-width: 600px){
+    .grid-container{
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 500px);
+        grid-template-areas: 
+        "grid-item-1  grid-item-1"
+        "grid-item-2  grid-item-2"
+        "grid-item-3  grid-item-3";
+    }
 }

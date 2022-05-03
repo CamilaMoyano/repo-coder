@@ -27,10 +27,27 @@ li{
 }
 
 
-.banner-medio img{
+.banner-fondo{
+    background-image:url(../assets/Featured-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
     width: 100%;
 }
+.titulo-banner{
+    color: white;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 95px;
+}
 
+.titulo-dos-banner{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+/*
 h1{
     text-align: center;
     font-size: 300%;
@@ -42,7 +59,8 @@ h2{
     text-align: center;
     font-size: 200%;
     background-color: #666866;
-}
+} 
+*/
 
 
 

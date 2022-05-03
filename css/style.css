@@ -28,7 +28,7 @@ li{
 
 
 .banner-fondo{
-    background-image:url(../assets/Featured-3.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url(../assets/Featured-3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

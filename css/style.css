@@ -47,7 +47,65 @@ li{
     text-align: center;
     font-size: 70px;
 }
-/*
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    border-radius: 4px;
+
+    border: solid 1px rgb(12, 12, 12);
+}
+
+.grid-container{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas: 
+    "grid-item-1  grid-item-1"
+    "grid-item-2  grid-item-2"
+    "grid-item-3  grid-item-3"
+    "grid-item-4  grid-item-4"
+    "grid-item-5  grid-item-6"
+    ;
+}
+
+.grid-item-1{
+    grid-area: grid-item-1;
+    background-color: aqua;
+
+}
+.grid-item-2{
+    grid-area: grid-item-2;
+    background-color: rgb(130, 15, 153);
+    
+}
+.grid-item-3{
+    grid-area: grid-item-3;
+    background-color: rgb(216, 230, 25);
+    
+}
+.grid-item-4{
+    grid-area: grid-item-4;
+    background-color: rgb(22, 192, 16);
+    
+}
+.grid-item-5{
+    grid-area: grid-item-5;
+    background-color: rgb(39, 37, 39);
+    
+}
+.grid-item-6{
+    grid-area: grid-item-6;
+    background-color: rgb(236, 35, 35);
+    
+}
+
+
+/*.
 h1{
     text-align: center;
     font-size: 300%;

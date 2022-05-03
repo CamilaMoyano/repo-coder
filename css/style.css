@@ -106,7 +106,7 @@ li{
     width: 400px;
 }
 .grid-item-3 img{
-    width: 300px;
+    width: 250px;
 }
 
 
@@ -142,6 +142,11 @@ h3{
     background-color: rgb(221, 218, 213);
     text-align: center;
     margin-top: 3%;
+}
+
+h5{
+    text-align: center; 
+    background-color: rgba(61, 70, 70, 0.253); ;
 }
 
 button{
@@ -207,7 +212,7 @@ form{
 .input-send{
     margin: 2%;
 }
-
+/*
 @media  screen and (max-width: 600px){
     .grid-container{
         font-size: 15px;
@@ -220,3 +225,4 @@ form{
         "grid-item-3  grid-item-3";
     }
 }
+*/

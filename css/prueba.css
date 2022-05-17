@@ -1,0 +1,285 @@
+.fondo {
+  width: 1000px;
+  height: 800px; }
+
+.formulario {
+  background-color: black;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 200px; }
+  .formulario label {
+    color: white; }
+  .formulario input {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer; }
+  .formulario textarea {
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: black;
+    color: white;
+    opacity: 80%;
+    cursor: grab; }
+  .formulario .enviar {
+    font-weight: bold; }
+  .formulario .enviar:hover {
+    background: white;
+    color: black; }
+
+h5 {
+  align-items: center;
+  font-size: 60px;
+  margin-left: 400px; }
+
+.fondo {
+  width: 1000px;
+  height: 800px; }
+
+.formulario {
+  background-color: black;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 200px; }
+  .formulario label {
+    color: white; }
+  .formulario input {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer; }
+  .formulario textarea {
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: black;
+    color: white;
+    opacity: 80%;
+    cursor: grab; }
+  .formulario .enviar {
+    font-weight: bold; }
+  .formulario .enviar:hover {
+    background: white;
+    color: black; }
+
+h5 {
+  align-items: center;
+  font-size: 60px;
+  margin-left: 400px; }
+
+.fondo {
+  width: 1000px;
+  height: 800px; }
+
+.formulario {
+  background-color: black;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 200px; }
+  .formulario label {
+    color: white; }
+  .formulario input {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer; }
+  .formulario textarea {
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: black;
+    color: white;
+    opacity: 80%;
+    cursor: grab; }
+  .formulario .enviar {
+    font-weight: bold; }
+  .formulario .enviar:hover {
+    background: white;
+    color: black; }
+
+h5 {
+  align-items: center;
+  font-size: 60px;
+  margin-left: 400px; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+  background-color: beige; }
+
+header nav ul {
+  display: flex;
+  align-items: center; }
+
+header li {
+  list-style: none;
+  margin: 1rem; }
+
+main .banner-fondo {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/Featured-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  width: 100%; }
+  main .banner-fondo .titulo-banner {
+    color: white;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 95px; }
+  main .banner-fondo .titulo-dos-banner {
+    color: white;
+    text-align: center;
+    font-size: 70px; }
+
+main .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 4px;
+  border: solid 1px #0c0c0c; }
+
+main .grid-container {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 500px);
+  grid-template-areas: "grid-item-1  grid-item-1" "grid-item-2  grid-item-2" "grid-item-3  grid-item-3"; }
+  main .grid-container .grid-item-1 {
+    grid-area: grid-item-1;
+    background-color: rgba(61, 70, 70, 0.253);
+    margin: 5%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(360deg); }
+  main .grid-container .grid-item-2 {
+    grid-area: grid-item-2;
+    background-color: rgba(61, 70, 70, 0.253);
+    margin: 5%;
+    display: flex;
+    transform: rotate(360deg); }
+  main .grid-container .grid-item-3 {
+    grid-area: grid-item-3;
+    background-color: rgba(61, 70, 70, 0.253);
+    display: flex;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(360deg); }
+  main .grid-container .grid-item-1 img {
+    width: 245px; }
+  main .grid-container .grid-item-2 img {
+    width: 400px; }
+  main .grid-container .grid-item-3 img {
+    width: 250px; }
+
+main h3 {
+  font-size: 200%;
+  padding: 10px;
+  background-color: #dddad5;
+  text-align: center;
+  margin-top: 3%; }
+
+main h5 {
+  text-align: center;
+  background-color: rgba(61, 70, 70, 0.253); }
+
+main button {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  background-color: #9da19c;
+  margin-top: 5%; }
+
+main button:hover {
+  background-color: #666866; }
+
+main .boton-final {
+  text-align: center; }
+
+.fondo {
+  width: 1000px;
+  height: 800px; }
+
+.formulario {
+  background-color: black;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 200px; }
+  .formulario label {
+    color: white; }
+  .formulario input {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer; }
+  .formulario textarea {
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: black;
+    color: white;
+    opacity: 80%;
+    cursor: grab; }
+  .formulario .enviar {
+    font-weight: bold; }
+  .formulario .enviar:hover {
+    background: white;
+    color: black; }
+
+h5 {
+  align-items: center;
+  font-size: 60px;
+  margin-left: 400px; }

@@ -83,7 +83,7 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
-            transform: rotate(360deg);
+            
         }
 
         .grid-item-2 {
@@ -91,7 +91,8 @@ main {
             background-color: rgba(61, 70, 70, 0.253);
             margin: 5%;
             display: flex;
-            transform: rotate(360deg);
+            align-items:flex-start;
+            
         }
 
         .grid-item-3 {
@@ -102,7 +103,7 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
-            transform: rotate(360deg);
+            
         }
 
         .grid-item-1 img {

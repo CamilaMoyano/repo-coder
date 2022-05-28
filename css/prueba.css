@@ -152,7 +152,7 @@ header li {
   margin: 1rem; }
 
 main .banner-fondo {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/Featured-3.jpg);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)), url(../assets/fondo-uno.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -189,14 +189,13 @@ main .grid-container {
     align-items: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transform: rotate(360deg); }
+    justify-content: center; }
   main .grid-container .grid-item-2 {
     grid-area: grid-item-2;
     background-color: rgba(61, 70, 70, 0.253);
     margin: 5%;
     display: flex;
-    transform: rotate(360deg); }
+    align-items: flex-start; }
   main .grid-container .grid-item-3 {
     grid-area: grid-item-3;
     background-color: rgba(61, 70, 70, 0.253);
@@ -204,12 +203,12 @@ main .grid-container {
     margin: 5%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transform: rotate(360deg); }
+    justify-content: center; }
   main .grid-container .grid-item-1 img {
     width: 245px; }
   main .grid-container .grid-item-2 img {
-    width: 400px; }
+    width: 300px;
+    height: 370px; }
   main .grid-container .grid-item-3 img {
     width: 250px; }
 
